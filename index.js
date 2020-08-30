@@ -24,11 +24,12 @@ function User(name) {
 User.prototype = new Person();
 
 var person = new Person("Ti", "78910");
-var user = new User("Teo", "123456");
+var user = new User("Teo");
 
 console.log(user.getName());
 console.log(user.getLevel());
-console.log(Person.prototype.getLevel());
+console.log(user.getPassword());
+
 
 Date.prototype.vnFormat = function() {
     var yyyy = this.getFullYear();
