@@ -1,18 +1,5 @@
-function Person(name) {
-    this.name = name;
-}
+var foldertest = require("./foldertest")
 
-function Per() 
-{
-    return this.names;
-}
+foldertest.eng();
+foldertest.vi();
 
-Per.prototype.level = "adminn"
-
-Person.prototype.level = function () {
-    return Per.prototype.level;
-}
-
-
-
-console.log(Person.prototype.level());

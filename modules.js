@@ -1,5 +1,6 @@
-var sayHello = function() {
-    console.log("export thafnh cong");
+var moduless = function() {
+    console.log("xin chào");
 }
+var ab = "ab"
 
-module.exports = sayHello;
+module.exports = moduless();
