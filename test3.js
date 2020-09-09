@@ -1,13 +1,7 @@
-function Person() {
-    this.name = name;
+var ab = function() {
+    this.name = "abcd";
+    this.age = 25;
 }
 
-Person.prototype.getlevel = function () {
-    return this.level
-}
-
-Person.level = "admin"
-
-console.log(Person.prototype.getlevel());
-
+module.exports = new ab();
 

@@ -1,5 +1,2 @@
-var foldertest = require("./foldertest")
-
-foldertest.eng();
-foldertest.vi();
-
+var hello = require("./test3")
+console.log(hello.age);
