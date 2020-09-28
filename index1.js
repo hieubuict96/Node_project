@@ -1,6 +1,8 @@
-exports = function () {
-    return "abc"
+function Abc() {
+    this.mass = "abcc";
+    madd = "madd";
 }
 
-console.log(exports);
-console.log(module.exports);
+var abc = new Abc()
+
+console.log(abc.mass);
