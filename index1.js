@@ -1,8 +1,11 @@
-function Abc() {
-    this.mass = "abcc";
-    madd = "madd";
+function aaa() {
+    console.log("abc");
 }
 
-var abc = new Abc()
+function ab() {
+    function () {
+        console.log("dasfds");
+    }
+}
 
-console.log(abc.mass);
+ab()
