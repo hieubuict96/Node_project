@@ -1,11 +1,6 @@
-function aaa() {
-    console.log("abc");
+var per = {
+    a: "abc",
+    d: "def"
 }
 
-function ab() {
-    function () {
-        console.log("dasfds");
-    }
-}
-
-ab()
+console.log(per);
